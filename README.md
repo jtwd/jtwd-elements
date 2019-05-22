@@ -1,4 +1,4 @@
-# Welcome to jtwd &lt;elements /&gt;
+# Welcome to jtwd &lt;Elements /&gt;
 
 ## Getting Started
 
