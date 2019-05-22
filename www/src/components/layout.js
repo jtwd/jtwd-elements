@@ -123,11 +123,13 @@ let Nav = ({ media }) => (
             }}
           >
             <div style={{ flex: 1 }}>
-              <div style={{
-                padding: "30px 50px 20px 20px",
-                color: "#fff",
-                fontSize: "2.2rem"
-              }}>
+              <div
+                style={{
+                  padding: "30px 50px 20px 20px",
+                  color: "#fff",
+                  fontSize: "2.2rem",
+                }}
+              >
                 jtwd &lt;elements /&gt;
               </div>
 
@@ -191,7 +193,7 @@ class Layout extends React.Component {
     return (
       <>
         <Helmet
-          title="Reach UI"
+          title="jtwd <Elements />"
           meta={[
             {
               name: "description",
