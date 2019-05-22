@@ -1,10 +1,4 @@
-# Welcome to Reach UI Development ♿️
-
-Thanks for getting involved with Reach UI development!
-
-## Looking for the documentation?
-
-https://ui.reach.tech
+# Welcome to jtwd <Elements /> ♿️
 
 ## Getting Started
 
@@ -14,12 +8,13 @@ This project uses
 - [Storybook](https://storybook.js.org/) for a great development experience
 - [Gatsby](https://gatsbyjs.org/) for a blazing fast website.
 - [Jest](https://jestjs.io/) for painless testing.
+- [Reach UI](https://ui.reach.tech/) for accessible base UI elements
 
 Before doing anything else, run these commands:
 
 ```
-git clone git@github.com:reach/reach-ui.git
-cd reach-ui
+git clone git@github.com:jtwd/jtwd-elements.git
+cd jtwd-elements
 yarn install
 yarn bootstrap
 yarn build
@@ -98,41 +93,3 @@ Often you'll want to just test the component you're working on:
 cd packages/<component-path>
 yarn test --watch
 ```
-
-## Development Plans
-
-The components to be built come from the the [Aria Practices Design Patterns and Widgets](https://www.w3.org/TR/wai-aria-practices-1.1). Here is a table of the components and their status.
-
-✅ - Released<br/>
-🛠 - Planning to Build<br/>
-❓ - Might Build?
-
-| Status | Name                 |
-| ------ | -------------------- |
-| 🛠      | Accordion            |
-| ✅     | Alert                |
-| ✅     | Alert Dialog         |
-| ❓     | Breadcrumb           |
-| ❓     | Button               |
-| 🛠      | Carousel             |
-| 🛠      | Checkbox             |
-| 🛠      | Combo Box            |
-| ✅     | Dialog (Modal)       |
-| 🛠      | Disclosure           |
-| ❓     | Feed                 |
-| ❓     | Grids                |
-| ❓     | Link                 |
-| 🛠      | Listbox              |
-| 🛠      | Menu or Menu bar     |
-| ✅     | Menu Button          |
-| 🛠      | Radio Group          |
-| 🛠      | Slider               |
-| 🛠      | Slider (Multi-Thumb) |
-| ❓     | Spinbutton           |
-| ❓     | Table                |
-| ✅     | Tabs                 |
-| ❓     | Toolbar              |
-| ✅     | Tooltip              |
-| 🛠      | Tree View            |
-| ❓     | Treegrid             |
-| ❓     | Window Splitter      |
